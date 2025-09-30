@@ -11,7 +11,7 @@ namespace Tyuiu.BayazitovEA.Sprint1.Task3.V13.Test
             DataService ds = new DataService();
             double x = 235.0;
             var res = ds.MultiplyOfDigits(x);
-            Assert.AreEqual(41.125, res);
+            Assert.AreEqual(30, res);
         }
     }
 }
